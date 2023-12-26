@@ -10,8 +10,8 @@
     "author": "Jsl",
     "license": "ISC",
     "dependencies": {
+         "@adiwajshing/keyed-db": "^0.2.4",
         "@adiwajshing/baileys": "git+https://github.com/Afx-Abu/baileys.ml",
-        "@adiwajshing/keyed-db": "^0.2.4",
         "axios": "^0.27.2",
         "browser-id3-writer": "^4.4.0",
         "convert-unicode-fonts": "1.0.1",
