@@ -1,16 +1,15 @@
 {
-    "name": "Wa-Bot-Xd",
-    "version": "1.0.2",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "pm2 start . --attach"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-       "@adiwajshing/baileys": "git+https://github.com/Afx-Abu/baileys.ml",
+   "name": "Abu-MD",
+   "version": "2.0.1",
+   "description": "Abu-MD - Simple whatsapp Bot",
+   "main": "./index.js",
+   "scripts": {
+    "start": "supervisor -s index.js"
+   },
+   "author": "Afx-Abu",
+   "license": "ISC",
+   "dependencies": {
+      "@adiwajshing/baileys": "git+https://github.com/Afx-Abu/baileys.ml",
        "shadow-xd": "https://github.com/SPARK-SHADOW/Shadow-Xd.git",
         "@adiwajshing/keyed-db": "^0.2.4",
         "axios": "^0.27.2",
@@ -69,4 +68,5 @@
         "ytdl-core": "^4.11.2",
         "yt-search": "^2.10.3"
     }
+   }
 }
