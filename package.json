@@ -10,7 +10,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-         "shadow-xd": "https://github.com/SPARK-SHADOW/Shadow-Xd.git",
         "@adiwajshing/keyed-db": "^0.2.4",
         "axios": "^0.27.2",
         "browser-id3-writer": "^4.4.0",
