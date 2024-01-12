@@ -9,7 +9,7 @@
 #### _4. Click The Deploy url showing below and change "SPARK-SHADOW" to url github user name and deploy_
 
 ```
-https://heroku.com/deploy?template=https://github.com/spark-shadow/Wa-Bot-Xd
+https://heroku.com/deploy?template=https://github.com/Lz-Zack/Wa-Bot-Xd
 ```
 
 #### _- after deploy turn on worker and enjoy.._
