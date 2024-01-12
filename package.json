@@ -10,7 +10,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@adiwajshing/baileys": "whiskeysockets/baileys",
+        "@adiwajshing/baileys": "npm:whiskeysockets/baileys",
         "shadow-xd": "https://github.com/SPARK-SHADOW/Shadow-Xd.git",
         "@adiwajshing/keyed-db": "^0.2.4",
         "axios": "^0.27.2",
