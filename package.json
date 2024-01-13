@@ -3,13 +3,14 @@
     "version": "1.0.2",
     "description": "",
     "main": "index.js",
+    "main": "./index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "pm2 start . --attach"
+    "start": "supervisor -s index.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@whiskeysockets/baileys": "^6.5.0",
         "@adiwajshing/keyed-db": "^0.2.4",
         "axios": "^0.27.2",
         "browser-id3-writer": "^4.4.0",
