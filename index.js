@@ -118,7 +118,8 @@ const L = require("./plugins/database/plugin");
 require("events").EventEmitter.defaultMaxListeners = 0x1f4;
 const P = async () => {
   try {
-    const S = await I.getPaste(await l());
+
+    
     await x.DATABASE.sync();
     console.log("DB syncing..");
     console.log("Loading auth file..");
