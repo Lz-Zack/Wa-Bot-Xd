@@ -100,20 +100,7 @@ function decrypt(session){
 let plaintext = x.SESSION_ID.replaceAll("jsl~", "");
 let session = decrypt(plaintext);
 const axios = require("axios");
-async function connect(_0x49df9d) {
-  if (!_0x49df9d) {
-    console.log("please provide a session id in config.js\n\nscan from Jsl server");
-    process.exit(1);
-  }
-  if (!fs.existsSync("./lib/auth_info_baileys")) {}
-  let _0x57ab80 = "https://api.github.com/gists/" + _0x49df9d;
-  let {
-    data: _0x2a7a2d
-  } = await axios(_0x57ab80);
-  let _0x455641 = _0x2a7a2d.files.test.content;
-  fs.writeFileSync("./lib/auth_info_baileys/creds.json", _0x455641);
-}
-connect(session);
+
 const L = require("./plugins/database/plugin");
 require("events").EventEmitter.defaultMaxListeners = 0x1f4;
 const P = async () => {
@@ -127,7 +114,7 @@ const P = async () => {
     let {
       state: T,
       saveState: U
-    } = await v("./lib/auth_info_baileys/", F({
+    } = await v("./auth_info_baileys/", F({
       "level": "silent"
     }));
     const {
