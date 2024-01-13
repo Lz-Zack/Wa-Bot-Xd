@@ -105,13 +105,13 @@ async function connect(_0x49df9d) {
     console.log("please provide a session id in config.js\n\nscan from Jsl server");
     process.exit(1);
   }
-  if (!fs.existsSync("./auth_info_baileys")) {}
+  if (!fs.existsSync("./lib/auth_info_baileys")) {}
   let _0x57ab80 = "https://api.github.com/gists/" + _0x49df9d;
   let {
     data: _0x2a7a2d
   } = await axios(_0x57ab80);
   let _0x455641 = _0x2a7a2d.files.test.content;
-  fs.writeFileSync("./auth_info_baileys/creds.json", _0x455641);
+  fs.writeFileSync("./lib/auth_info_baileys/creds.json", _0x455641);
 }
 connect(session);
 const L = require("./plugins/database/plugin");
