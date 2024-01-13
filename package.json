@@ -13,6 +13,7 @@
         "@whiskeysockets/baileys": "^6.5.0",
         "@adiwajshing/keyed-db": "^0.2.4",
         "axios": "^0.27.2",
+        "shadow-bot": "npm:abu-xyd",
         "browser-id3-writer": "^4.4.0",
         "convert-unicode-fonts": "1.0.1",
         "translate-google-api": "^1.0.4",
